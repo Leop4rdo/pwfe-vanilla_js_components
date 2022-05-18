@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e2e;
+
+    min-height: 100vh;
+
+    padding: 2.5vh 2.5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 5vh 0;
+    font-family: sans-serif;
+
+    color: #c9cbff;
+    font-size: clamp(0.75rem, 8vw, 4rem);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 2vw;
+}
