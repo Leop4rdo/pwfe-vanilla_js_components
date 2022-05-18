@@ -33,8 +33,8 @@ class Card extends HTMLElement {
 
         style.textContent = `
             .card {
-                height: clamp(150px, 25vw, 250px);
-                width: clamp(150px, 25vw, 250px);
+                height: clamp(150px, 45vw, 250px);
+                width: clamp(150px, 45vw, 250px);
 
                 background-color:  ${this.getStatusColor()};
             
@@ -57,7 +57,7 @@ class Card extends HTMLElement {
                 padding: 6px;
                 text-align: center;
 
-                font-size: clamp(.75rem, 2vw, 1rem);
+                font-size: clamp(.75rem, 3vw, 1rem);
                 color: white;
                 background-color: #575268;
                 border-radius: 12px;
