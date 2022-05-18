@@ -71,7 +71,7 @@ class Card extends HTMLElement {
                 border-radius: 50%;
                 background-image: url("${profileImg}");
                 background-size: cover;
-            
+                background-position: center;
                 box-shadow: inset 0px 0px 8px #23193d5b;
             }
         `;
